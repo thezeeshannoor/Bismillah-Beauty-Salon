@@ -1,0 +1,16 @@
+.logo {
+  font-family: "Herr Von Muellerhoff", sans-serif;
+  font-weight: 600;
+  font-size: 34px !important;
+  font-style: normal;
+  line-height: 0;
+}
+.footerBg {
+  background-color: #19191a;
+}
+.hrColor {
+  color: white;
+}
+.icons {
+  color: white;
+}

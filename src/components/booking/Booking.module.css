@@ -1,0 +1,57 @@
+.mainDiv {
+  position: relative;
+  top: 90px;
+  margin-bottom: 90px;
+}
+.heroBg {
+  filter: brightness(40%);
+  height: 480px;
+  width: 100%;
+}
+.desc {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding: 0 5px;
+  transform: translate(-50%, 10%);
+}
+.styleHead {
+  font-size: 100px;
+  line-height: 0.9;
+}
+.plainHead {
+  font-size: 60px;
+  letter-spacing: 0.1px;
+  font-weight: 800;
+
+  color: white;
+  text-transform: uppercase;
+}
+.welBtn {
+  background-color: #fc84b4;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media (max-width: 865px) {
+  .desc {
+    top: 1%;
+    transform: translate(-50%, 50%);
+  }
+}
+@media (max-width: 924px) {
+  .welBtn {
+    font-size: 10px;
+  }
+  .styleHead {
+    font-size: 40px;
+  }
+  .plainHead {
+    font-size: 25px;
+  }
+  .heroBg {
+    height: 250px;
+  }
+}

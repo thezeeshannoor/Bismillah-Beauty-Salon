@@ -1,0 +1,9 @@
+.submitBtn {
+  background-color: #fc84b4;
+  padding: 8px;
+  margin-top: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+}

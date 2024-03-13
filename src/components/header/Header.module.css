@@ -1,0 +1,34 @@
+.logo {
+  font-family: "Herr Von Muellerhoff", sans-serif;
+  font-weight: 600;
+  font-size: 34px !important;
+  font-style: normal;
+}
+.activePink {
+  color: #fc84b4 !important;
+  font-weight: bolder !important;
+}
+
+.nav-link:hover {
+  color: #fc84b4 !important;
+}
+.navPosition {
+  position: relative;
+  z-index: 1;
+}
+.btnBook {
+  background-color: #fc84b4;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 12px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btnBook:hover {
+  background-color: #222a3e;
+  color: white;
+}

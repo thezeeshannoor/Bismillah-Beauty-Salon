@@ -1,0 +1,15 @@
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background: #fc84b4;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  
+  z-index: 10;
+}

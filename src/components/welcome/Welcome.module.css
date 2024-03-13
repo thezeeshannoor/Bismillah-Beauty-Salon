@@ -1,0 +1,14 @@
+.welcomeHead {
+  font-size: 100px;
+  line-height: 0.9;
+}
+.welcomeHeadPlain {
+  font-size: 70px;
+  letter-spacing: 0.1px;
+  font-weight: 800;
+  line-height: 0.3;
+  text-transform: uppercase;
+}
+.welImg {
+  width: 100%;
+}

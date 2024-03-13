@@ -1,0 +1,71 @@
+body,
+html {
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+.pink {
+  color: #fc84b4;
+}
+.l {
+  /* webkit-transition: margin 300ms ease-out; */
+  transition: margin 300ms ease-out;
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateX(0);
+  }
+}
+.fadeInRight:hover {
+  animation-name: fadeInRight;
+}
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body {
+  font-family: "Montserrat", Sans-serif;
+}
+.mon {
+  font-family: "Montserrat", Sans-serif;
+}
+.purple {
+  color: #222a3e;
+}
+.bgPurple {
+  background-color: #222a3e;
+}
+.herr {
+  font-family: "Herr Von Muellerhoff", sans-serif;
+}
+.gray {
+  color: #7a7a7a;
+  font-family: "Open Sans", Sans-serif;
+}
+/* heade closing part */
+@media (max-width: 992px) {
+  .navbar-toggler {
+    color: #fc84b4;
+    border: none;
+  }
+  .navbar-collapse {
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+  .navbar-collapse.show {
+    max-height: 1000px; /* Adjust this value as needed */
+  }
+
+  .navPosition {
+    position: relative;
+    z-index: 1;
+  }
+}
