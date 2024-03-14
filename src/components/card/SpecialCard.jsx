@@ -24,7 +24,7 @@ const SpecialCard = ({ item }) => {
             </h5>
             <p className="card-text text-center mt-3 text-white">{item.txt}</p>
             <Link
-              to="/contact"
+              to="/services"
               className={`${styles.cardBtn} text-decoration-none text-white `}
             >
               Learn More

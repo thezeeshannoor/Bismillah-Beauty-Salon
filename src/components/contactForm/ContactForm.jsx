@@ -27,7 +27,7 @@ const ContactForm = () => {
           Get In Touch With Us
         </h1>
       </div>
-      <div className="d-flex flex-column flex-lg-row justify-content-evenly align-items-center gap-1 ">
+      <div className="d-flex flex-column flex-column-reverse flex-lg-row justify-content-evenly align-items-center gap-1 ">
         <div className="col-11 col-lg-5 mb-4">
           <iframe
             className="w-100"

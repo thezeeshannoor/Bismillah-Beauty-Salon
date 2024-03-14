@@ -4,6 +4,7 @@ import bgImg from "../../assets/bismillah-beauty-salon-bgimg.jpg";
 import CardList from "../../components/cardList/CardList";
 import welcomeImg from "../../assets/bismillah-beauty-salon-welcome.jpg";
 import Welcome from "../../components/welcome/Welcome";
+import slider1 from "../../assets/Bismillah-Beauty-Salon-Slider1.webp";
 
 const Home = () => {
   const data = {
@@ -28,7 +29,7 @@ const Home = () => {
   };
   return (
     <>
-      <HeroSlider link={link} txt={txt} />
+      <HeroSlider link={link} txt={txt} img={slider1} />
       <div className="d-flex gap-3 justify-content-evenly flex-wrap px-2 p-md-5 my-3">
         <CardList />
       </div>

@@ -1,12 +1,12 @@
 import styles from "./HeroSlider.module.css";
 
-import slider1 from "../../assets/Bismillah-Beauty-Salon-Slider1.webp";
 import slider2 from "../../assets/bismillah-beauty-salon-slider2.webp";
 import slider3 from "../../assets/bismillah-beauty-salon-slider3.png";
 import { Link } from "react-router-dom";
-import FadeLeft from "../fadeLeft/FadeLeft";
 
-const HeroSlider = ({ display, link, txt }) => {
+import RevealScroll from "../RevealScroll/RevealScroll";
+
+const HeroSlider = ({ display, link, txt, img }) => {
   return (
     <>
       <div className={`${styles.heroPosition}`}>
@@ -40,13 +40,13 @@ const HeroSlider = ({ display, link, txt }) => {
           <div className={`carousel-inner ${styles.sliderHeight} `}>
             <div className="carousel-item active">
               <img
-                src={slider1}
+                src={img}
                 className={`d-block w-100 ${styles.sliderImg}`}
                 alt="..."
               />
 
               <div className={`d-md-block ${styles.sliderCaption}`}>
-                <FadeLeft>
+                <RevealScroll axix={"x"} value={"-100"}>
                   <h1 className={`herr pink ${styles.headTxt}`}>
                     premier esthetics
                   </h1>
@@ -61,7 +61,7 @@ const HeroSlider = ({ display, link, txt }) => {
                       {txt}
                     </button>
                   </Link>
-                </FadeLeft>
+                </RevealScroll>
               </div>
             </div>
 
@@ -72,25 +72,27 @@ const HeroSlider = ({ display, link, txt }) => {
                 alt="..."
               />
               <div className={`d-md-block ${styles.sliderCaption}`}>
-                <h1 className={`herr pink ${styles.headTxt}`}>
-                  get your stylish
-                </h1>
-                <h1 className={`${styles.whiteTxt} `}>Look</h1>
-                <h1
-                  className={`${styles.whiteTxt}  pt-2 pt-sm-4 py-md-4  py-xlg-5 `}
-                >
-                  Today
-                </h1>
-                <p className=" text-white d-none d-md-block ">
-                  Make your hairstyle an important part for the expression of
-                  your identity! Our licensed hair dressers will make sure you
-                  get the exact style you want!
-                </p>
-                <Link to={`${link}`}>
-                  <button className={` mt-3 mt-md-0 ${styles.sliderBtn}`}>
-                    {txt}
-                  </button>
-                </Link>
+                <RevealScroll axix={"x"} value={"-100"}>
+                  <h1 className={`herr pink ${styles.headTxt}`}>
+                    get your stylish
+                  </h1>
+                  <h1 className={`${styles.whiteTxt} `}>Look</h1>
+                  <h1
+                    className={`${styles.whiteTxt}  pt-2 pt-sm-4 py-md-4  py-xlg-5 `}
+                  >
+                    Today
+                  </h1>
+                  <p className=" text-white d-none d-md-block ">
+                    Make your hairstyle an important part for the expression of
+                    your identity! Our licensed hair dressers will make sure you
+                    get the exact style you want!
+                  </p>
+                  <Link to={`${link}`}>
+                    <button className={` mt-3 mt-md-0 ${styles.sliderBtn}`}>
+                      {txt}
+                    </button>
+                  </Link>
+                </RevealScroll>
               </div>
             </div>
             <div className={`carousel-item ${display}`}>
@@ -100,25 +102,27 @@ const HeroSlider = ({ display, link, txt }) => {
                 alt="..."
               />
               <div className={`d-md-block ${styles.sliderCaption}`}>
-                <h1 className={`herr pink ${styles.headTxt}`}>
-                  ultimate experience
-                </h1>
-                <h1 className={`${styles.whiteTxt}`}>In hair</h1>
-                <h1
-                  className={`${styles.whiteTxt}  pt-2 pt-sm-4 py-md-4  py-xlg-5 `}
-                >
-                  Care
-                </h1>
-                <p className="mt-5 mt-sm-3 text-white d-none d-md-block">
-                  At Premier Esthetics, we provide treatments to improve your
-                  skin's natural beauty and address specific concerns for the
-                  best possible results.
-                </p>
-                <Link to={`${link}`}>
-                  <button className={` mt-3 mt-md-0 ${styles.sliderBtn}`}>
-                    {txt}
-                  </button>
-                </Link>
+                <RevealScroll axix={"x"} value={"-100"}>
+                  <h1 className={`herr pink ${styles.headTxt}`}>
+                    ultimate experience
+                  </h1>
+                  <h1 className={`${styles.whiteTxt}`}>In hair</h1>
+                  <h1
+                    className={`${styles.whiteTxt}  pt-2 pt-sm-4 py-md-4  py-xlg-5 `}
+                  >
+                    Care
+                  </h1>
+                  <p className="mt-5 mt-sm-3 text-white d-none d-md-block">
+                    At Premier Esthetics, we provide treatments to improve your
+                    skin's natural beauty and address specific concerns for the
+                    best possible results.
+                  </p>
+                  <Link to={`${link}`}>
+                    <button className={` mt-3 mt-md-0 ${styles.sliderBtn}`}>
+                      {txt}
+                    </button>
+                  </Link>
+                </RevealScroll>
               </div>
             </div>
           </div>
