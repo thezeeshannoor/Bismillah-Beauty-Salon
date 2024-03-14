@@ -11,11 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@popperjs/core": "^2.11.8",
-=======
       "@popperjs/core": "^2.11.8",
->>>>>>> f4228fdca4e8dccda33e07f8ddd1239e6c3f8db8
     "bootstrap": "^5.3.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.0.8",
